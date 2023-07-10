@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'app-font';
+  src: url('/wk.ttf') format('truetype');
+}
+
+#root {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  /* overflow: hidden; */
+}
+
+html {
+  /* font-size: 18px; */
+  font-family: 'app-font';
+  min-width: 800px;
+}
